@@ -95,6 +95,7 @@ public class AddressBookControllerTest {
 
 
 
+
         addressBookController.deleteAddressBook(createAB.getId());
 
         Assertions.assertEquals(0,addressBookController.getAllAddressBooks().size());
